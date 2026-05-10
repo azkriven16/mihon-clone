@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "build:desktop-web": "node scripts/build-desktop-web.mjs",
     "start": "next start",
     "lint": "eslint",

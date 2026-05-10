@@ -2,10 +2,5 @@
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "installCommand": "npm install",
-  "build": {
-    "env": {
-      "NEXT_PRIVATE_DISABLE_TURBOPACK": "1"
-    }
-  }
+  "installCommand": "npm install"
 }
