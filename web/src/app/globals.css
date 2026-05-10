@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../";
+@source "../../src-tauri/src";
 
 :root {
   --bg: #1a1a1a;
