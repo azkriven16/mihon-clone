@@ -1,0 +1,33 @@
+# Android reference — read-only source reference, not part of this project
+reference/
+
+# Stray build output at root
+/.next/
+
+# Next.js web app
+web/.next/
+web/out/
+web/build/
+web/node_modules/
+web/next-env.d.ts
+web/.pnp
+web/.yarn/*
+!web/.yarn/patches
+!web/.yarn/plugins
+!web/.yarn/releases
+!web/.yarn/versions
+
+# Tauri build artifacts
+web/src-tauri/target/
+web/src-tauri/gen/
+
+# Misc
+.DS_Store
+*.pem
+.env*
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo

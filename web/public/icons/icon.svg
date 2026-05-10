@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#121218"/>
+  <rect x="60" y="80" width="280" height="352" rx="16" fill="#1c1c23"/>
+  <rect x="100" y="120" width="200" height="20" rx="6" fill="#818cf8"/>
+  <rect x="100" y="158" width="180" height="12" rx="4" fill="#4a4a6a"/>
+  <rect x="100" y="178" width="160" height="12" rx="4" fill="#4a4a6a"/>
+  <rect x="100" y="198" width="170" height="12" rx="4" fill="#4a4a6a"/>
+  <rect x="60" y="300" width="280" height="2" fill="#2e2e3a"/>
+  <rect x="100" y="320" width="200" height="10" rx="3" fill="#3a3a5a"/>
+  <rect x="100" y="340" width="160" height="10" rx="3" fill="#3a3a5a"/>
+  <rect x="100" y="360" width="180" height="10" rx="3" fill="#3a3a5a"/>
+  <!-- Bookmark accent -->
+  <path d="M340 80 L340 200 L310 180 L280 200 L280 80 Z" fill="#818cf8"/>
+  <!-- Stars decoration -->
+  <circle cx="400" cy="180" r="40" fill="#4f46e5" opacity="0.6"/>
+  <circle cx="420" cy="300" r="25" fill="#818cf8" opacity="0.4"/>
+  <circle cx="380" cy="380" r="15" fill="#a5b4fc" opacity="0.3"/>
+</svg>

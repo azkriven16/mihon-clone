@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Mihon Clone",
+  "version": "0.1.0",
+  "identifier": "app.mihonclone.desktop",
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "npm run build:desktop-web",
+    "devUrl": "http://localhost:3000",
+    "frontendDist": "../out"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Mihon Clone",
+        "width": 1180,
+        "height": 820,
+        "minWidth": 420,
+        "minHeight": 640,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Entertainment",
+    "shortDescription": "Desktop manga reader",
+    "longDescription": "A desktop manga reader with library, sources and offline reading support."
+  }
+}
