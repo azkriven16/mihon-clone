@@ -4,4 +4,7 @@ src-tauri/gen
 .next
 out
 test-screenshots
-*.mjs
+scripts/build-desktop-web.mjs
+test-pages.mjs
+test-pages-3000.mjs
+test-pages-3002.mjs
